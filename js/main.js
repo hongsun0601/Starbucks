@@ -127,6 +127,7 @@ function floatingObject(selector, delay, size) {
 floatingObject('.floating1', 1, 30);
 floatingObject('.floating2', .5, 30);
 floatingObject('.floating3', 1.5, 40);
+floatingObject('.floating4', 1.5, 50);
 
 const spyEls = document.querySelectorAll('section.scroll-spy');
 spyEls.forEach(function (spyEl) {

@@ -698,6 +698,16 @@
       left: 150px;
   }
 
+  .youtube .floating4 {
+      height: 50%;
+      width: 31%;
+      position: absolute;
+      top: 100px;
+      right: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 10px 10px 20px black;
+  }
 
   .season-product {
       background-image: url(../images/season_product_bg.jpg);
