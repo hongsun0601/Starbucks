@@ -53,6 +53,9 @@ fadeEls.forEach(function (fadeEl, index) {
     });
 });
 
+
+
+
 new Swiper('.notice-line .swiper', {
     // Optional parameters
     direction: 'vertical',
@@ -130,7 +133,7 @@ spyEls.forEach(function (spyEl) {
     new ScrollMagic
         .Scene({
             triggerElement: spyEl,
-            triggerHook: .8,
+            triggerHook: .1,
         })
         .setClassToggle(spyEl, 'show')
         .addTo(new ScrollMagic.Controller());
